@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 select:focus,
@@ -16,7 +16,7 @@ button:focus {
 
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: #2e3136;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -38,11 +38,10 @@ body {
 }
 
 .container .box span {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
-  color: #fff;
+  color: #f2f3f4;
   font-size: 3.5em;
   white-space: nowrap;
   font-weight: bold;
@@ -57,20 +56,20 @@ body {
 }
 
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: #f68b71;
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #5d8d73;
 }
 
 @keyframes animate {
   0% {
-    transform: perspective(500px) rotateX(0deg) rotate(5deg);
+    transform: perspective(500px) rotateX(0deg) rotate(0);
   }
 
   100% {
-    transform: perspective(50px) rotateX(360deg) rotate(5deg);
+    transform: perspective(50px) rotateX(100deg) rotate(1deg);
   }
 }
 
